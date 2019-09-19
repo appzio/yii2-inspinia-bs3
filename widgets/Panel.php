@@ -1,11 +1,11 @@
 <?php
 
-namespace jcabanillas\inspinia\widgets;
+namespace appzio\inspinia\widgets;
 
 /**
  * Class Panel
  *
- * @package jcabanillas\inspinia\widgets
+ * @package appzio\inspinia\widgets
  */
 class Panel extends \yii\base\Widget
 {

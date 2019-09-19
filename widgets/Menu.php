@@ -1,5 +1,5 @@
 <?php
-    namespace jcabanillas\inspinia\widgets;
+    namespace appzio\inspinia\widgets;
 
     use Yii;
     use yii\helpers\ArrayHelper;

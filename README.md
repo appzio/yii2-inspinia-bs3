@@ -1,6 +1,6 @@
 Inspinia Admin Theme
 ====================
-Inspinia 2.5 widgets that really works
+Inspinia 2.9 widgets, based on work of appzio (https://github.com/appzio/yii2-inspinia).
 
 Buy license to this theme https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S
 ===
@@ -13,13 +13,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist jcabanillas/yii2-inspinia "*"
+php composer.phar require --prefer-dist appzio/yii2-inspinia-bs4 "*"
 ```
 
 or add
 
 ```
-"jcabanillas/yii2-inspinia-asset": "*"
+"appzio/yii2-inspinia-asset": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -37,7 +37,7 @@ For Yii 2 Application Template or Basic Application Template
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/jcabanillas/yii2-inspinia/views'
+                '@app/views' => '@vendor/appzio/yii2-inspinia-bs4/views'
              ],
          ],
     ],
@@ -51,7 +51,7 @@ Therefore it is recommended to copy the views into your application and adjust t
 Customization
 -------------
 
-    Copy files from vendor/jcabanillas/yii2-inspinia/views to @app/views.
+    Copy files from vendor/appzio/yii2-inspinia-bs4/views to @app/views.
     Remove the custom view configuration from your application by deleting the path mappings, if you have made them before.
     
 Components
@@ -166,7 +166,7 @@ close_button     true if panel closable
 ionRangeSlider widget
 ---
 ```
-<?= $form->field($model, 'work_time')->widget(\jcabanillas\inspinia\widgets\ionRangeSlider::className(), [
+<?= $form->field($model, 'work_time')->widget(\appzio\inspinia\widgets\ionRangeSlider::className(), [
     'clientOptions'=>[
         'type'=>'double',
         'grid'=>true,

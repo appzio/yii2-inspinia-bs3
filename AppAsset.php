@@ -6,7 +6,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace jcabanillas\inspinia;
+namespace appzio\inspinia;
 
 use yii\web\AssetBundle;
 
@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle {
 
-    public $sourcePath = '@vendor/jcabanillas/yii2-inspinia/assets';
+    public $sourcePath = '@vendor/appzio/yii2-inspinia-bs4/assets';
     public $css = [
         'css/animate.css',
         'css/style.css'
@@ -32,7 +32,7 @@ class AppAsset extends AssetBundle {
         'yii\jui\JuiAsset',
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapPluginAsset',
-        'jcabanillas\inspinia\FontawesomeAsset'
+        'appzio\inspinia\FontawesomeAsset'
     ];
 
 }

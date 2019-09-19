@@ -1,10 +1,10 @@
 <?php
-namespace jcabanillas\inspinia;
+namespace appzio\inspinia;
 
 /**
  * Class FontawesomeAsset
  *
- * @package jcabanillas\inspinia
+ * @package appzio\inspinia
  */
 class MomentjsAsset extends \yii\web\AssetBundle
 {

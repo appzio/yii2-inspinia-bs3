@@ -2,7 +2,7 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use jcabanillas\inspinia\AppAsset;
+use appzio\inspinia\AppAsset;
 use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
@@ -10,7 +10,7 @@ use yii\widgets\Breadcrumbs;
 use yii\bootstrap\Alert;
 
 AppAsset::register($this);
-$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/jcabanillas/yii2-inspinia/assets');
+$directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/appzio/yii2-inspinia-bs4/assets');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

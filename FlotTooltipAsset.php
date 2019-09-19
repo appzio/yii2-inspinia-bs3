@@ -1,10 +1,10 @@
 <?php
-namespace jcabanillas\inspinia;
+namespace appzio\inspinia;
 
 /**
  * Class FontawesomeAsset
  *
- * @package jcabanillas\inspinia
+ * @package appzio\inspinia
  */
 class FlotTooltipAsset extends \yii\web\AssetBundle
 {
@@ -15,6 +15,6 @@ class FlotTooltipAsset extends \yii\web\AssetBundle
 
     public $depends = [
         'yii\web\JqueryAsset',
-        'jcabanillas\inspinia\FlotAsset'
+        'appzio\inspinia\FlotAsset'
     ];
 }
