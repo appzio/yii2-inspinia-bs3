@@ -11,7 +11,7 @@
     use common\widgets\Alert;
 
     AppAsset::register($this);
-    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/appzio/yii2-inspinia-bs4/assets');
+    $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/appzio/yii2-inspinia-bs3/assets');
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>

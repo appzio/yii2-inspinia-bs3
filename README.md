@@ -1,6 +1,6 @@
 Inspinia Admin Theme
 ====================
-Inspinia 2.9 widgets, based on work of appzio (https://github.com/appzio/yii2-inspinia).
+Inspinia 2.7.1 widgets, based on work of Javier Cabanillas (https://github.com/jcabanillas/yii2-inspinia).
 
 Buy license to this theme https://wrapbootstrap.com/theme/inspinia-responsive-admin-theme-WB0R5L90S
 ===
@@ -10,10 +10,23 @@ Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
 
+Add on your composer.json
+```
+    "repositories": [
+        ...
+        {
+            "type": "vcs",
+            "url": "https://github.com/appzio/yii2-inspinia-bs3"
+        }
+        ...
+    ]
+```
+
+
 Either run
 
 ```
-php composer.phar require --prefer-dist appzio/yii2-inspinia-bs4 "*"
+php composer.phar require --prefer-dist appzio/yii2-inspinia-bs3 "*"
 ```
 
 or add
@@ -37,7 +50,7 @@ For Yii 2 Application Template or Basic Application Template
     'view' => [
          'theme' => [
              'pathMap' => [
-                '@app/views' => '@vendor/appzio/yii2-inspinia-bs4/views'
+                '@app/views' => '@vendor/appzio/yii2-inspinia-bs3/views'
              ],
          ],
     ],
@@ -51,7 +64,7 @@ Therefore it is recommended to copy the views into your application and adjust t
 Customization
 -------------
 
-    Copy files from vendor/appzio/yii2-inspinia-bs4/views to @app/views.
+    Copy files from vendor/appzio/yii2-inspinia-bs3/views to @app/views.
     Remove the custom view configuration from your application by deleting the path mappings, if you have made them before.
     
 Components

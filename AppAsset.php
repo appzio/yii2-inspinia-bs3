@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle {
 
-    public $sourcePath = '@vendor/appzio/yii2-inspinia-bs4/assets';
+    public $sourcePath = '@vendor/appzio/yii2-inspinia-bs3/assets';
     public $css = [
         'css/animate.css',
         'css/style.css'

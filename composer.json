@@ -1,5 +1,5 @@
 {
-    "name": "appzio/yii2-inspinia-bs4",
+    "name": "appzio/yii2-inspinia-bs3",
     "description": "Inspinia 2.9.2 widgets",
     "type": "yii2-extension",
     "keywords": ["yii2", " inspinia", " assets", " widgets"],
@@ -28,8 +28,9 @@
         "bower-asset/flot": "*",
         "bower-asset/flot.tooltip": "*",
         "bower-asset/flot-spline": "*",
-        "bower-asset/jquery-timeago": "^1.5"
-    },
+        "bower-asset/jquery-timeago": "^1.5",
+        "yiisoft/yii2-bootstrap4": "*"
+},
     "autoload": {
         "psr-4": {
             "appzio\\inspinia\\": ""
